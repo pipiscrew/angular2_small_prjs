@@ -1,0 +1,17 @@
+<h1>
+  {{title}}
+</h1>
+
+    <ul>
+      <li *ngFor="let item of flickrOBJ">
+        <img src="{{item.url_t}}" (click)="add_picture(item.url_t)">
+      </li>
+    </ul>
+<button type="button" (click)="callFlickr()">Get new images!</button>
+<button type="button" (click)="clearCanva()">CLEAR CANVA</button>
+<button type="button" (click)="save_json()">Save</button>
+<button type="button" (click)="load_json()">Load</button>
+<button type="button" (click)="del_record()">Delete Record</button>
+<button type="button" (click)="save_pdf()">PDF</button>
+
+<canvas id="canvas" width="600" height="600" crossOrigin="Anonymous"></canvas>
