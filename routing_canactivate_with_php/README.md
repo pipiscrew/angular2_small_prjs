@@ -1,5 +1,9 @@
 similar articles :
 
+## Angular - Authentication With JSON Web Tokens (JWT)
+https://blog.angular-university.io/angular-authentication-jwt/
+
+
 ## Learn MVC Using Angular Role Based Login using UI-Router
 https://dzone.com/articles/learn-mvc-using-angular-role-based-login
 
