@@ -1,5 +1,8 @@
 similar articles :
 
+## Parse JWT tokens using Typescript
+https://winsmarts.com/parse-jwt-tokens-using-typescript-9e9c1e186f3e
+
 ## Angular - Authentication With JSON Web Tokens (JWT)
 https://blog.angular-university.io/angular-authentication-jwt/
 
