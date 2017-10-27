@@ -10,6 +10,9 @@ https://blog.angular-university.io/angular-authentication-jwt/
 ## Learn MVC Using Angular Role Based Login using UI-Router
 https://dzone.com/articles/learn-mvc-using-angular-role-based-login
 
+## ASP.NET Core 2 - restrict access to JWT bearers only
+https://jonhilton.net/security/apis/secure-your-asp.net-core-2.0-api-part-2---jwt-bearer-authentication/
+
 
 https://ui-router.github.io/ng2/
 
