@@ -6,6 +6,9 @@ https://winsmarts.com/parse-jwt-tokens-using-typescript-9e9c1e186f3e
 ## Angular - Authentication With JSON Web Tokens (JWT)
 https://blog.angular-university.io/angular-authentication-jwt/
 
+## Using JWT to Secure a Stateless API World
+https://dzone.com/articles/using-jwt-to-secure-a-stateless-api-world
+
 
 ## Learn MVC Using Angular Role Based Login using UI-Router
 https://dzone.com/articles/learn-mvc-using-angular-role-based-login
@@ -15,7 +18,7 @@ https://jonhilton.net/security/apis/secure-your-asp.net-core-2.0-api-part-2---jw
 
 
 https://ui-router.github.io/ng2/
-
+https://jwt.io/
 
 
 ## Vuejs 2 Authentication Tutorial
