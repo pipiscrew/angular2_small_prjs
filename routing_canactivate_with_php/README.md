@@ -20,7 +20,10 @@ https://jonhilton.net/security/apis/secure-your-asp.net-core-2.0-api-part-2---jw
 https://www.red-gate.com/simple-talk/dotnet/c-programming/jwt-authentication-microservices-net/
 
 
+
+
 https://ui-router.github.io/ng2/
+
 https://jwt.io/
 
 
