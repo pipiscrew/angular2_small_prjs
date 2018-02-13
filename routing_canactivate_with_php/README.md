@@ -16,6 +16,9 @@ https://dzone.com/articles/learn-mvc-using-angular-role-based-login
 ## ASP.NET Core 2 - restrict access to JWT bearers only
 https://jonhilton.net/security/apis/secure-your-asp.net-core-2.0-api-part-2---jwt-bearer-authentication/
 
+## JWT Authentication for Microservices in .NET
+https://www.red-gate.com/simple-talk/dotnet/c-programming/jwt-authentication-microservices-net/
+
 
 https://ui-router.github.io/ng2/
 https://jwt.io/
