@@ -19,7 +19,8 @@ https://jonhilton.net/security/apis/secure-your-asp.net-core-2.0-api-part-2---jw
 ## JWT Authentication for Microservices in .NET
 https://www.red-gate.com/simple-talk/dotnet/c-programming/jwt-authentication-microservices-net/
 
-
+## nodejS - Stateless Authentication With JSON Web Tokens
+https://dzone.com/articles/stateless-authentication-with-json-web-tokens
 
 
 https://ui-router.github.io/ng2/
