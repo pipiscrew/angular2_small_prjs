@@ -22,6 +22,8 @@ https://www.red-gate.com/simple-talk/dotnet/c-programming/jwt-authentication-mic
 ## nodejS - Stateless Authentication With JSON Web Tokens
 https://dzone.com/articles/stateless-authentication-with-json-web-tokens
 
+## PHP - Send AJAX requests and responding with JSON data
+https://www.phpclasses.org/package/10688-PHP-Send-AJAX-requests-and-responding-with-JSON-data.html
 
 https://ui-router.github.io/ng2/
 
