@@ -1,5 +1,8 @@
 similar articles :
 
+## How JSON Web Token (JWT) Secures Your API
+https://dzone.com/articles/how-json-web-token-jwt-secures-your-api
+
 ## Parse JWT tokens using Typescript
 https://winsmarts.com/parse-jwt-tokens-using-typescript-9e9c1e186f3e
 
