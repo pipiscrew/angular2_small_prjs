@@ -12,7 +12,7 @@ if($user != 'admin') {
 	return;
 }
 ```
-Is an improved version of [mehulmpt.angular6-youtube](https://github.com/mehulmpt/angular6-youtube/tree/loginapp).<br>
+Is an improved version of [mehulmpt.angular6-youtube](https://github.com/mehulmpt/angular6-youtube/tree/loginapp) :<br>
 -better file/folder structure<br>
 -add `withCredentials` @ HttpHeaders, otherwise `PHPHSession` cookie is not stored when you upload the app online :)<br>
 -akveo.ng2-smart-table implementation with server side pagination + `$_SESSION` sample validation<br>
