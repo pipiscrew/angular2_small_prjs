@@ -29,6 +29,7 @@ PRJ\src\app\auth\auth.service.ts<br>
 PRJ\src\app\auth\user.service.ts<br><br>
 when you `ng build --prod --base-href /subfolder/` automatically uses the environment.prod.ts<br>
 <br>
+[A guide to ng2-smart-table](https://www.pipiscrew.com/2019/06/from-wenzhixin-bootstrap-table-to-angular-akveo-ng2-smart-table/)
 [CanActivate vs CanActivateChild](https://stackoverflow.com/a/40284274)
 <br>
 # This project uses the following 3rd-party dependencies :<br>
