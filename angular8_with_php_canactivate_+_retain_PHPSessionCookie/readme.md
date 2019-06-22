@@ -28,13 +28,13 @@ Files using baseURL : <br>
 PRJ\src\app\auth\auth.service.ts<br>
 PRJ\src\app\auth\user.service.ts<br><br>
 when you `ng build --prod --base-href /subfolder/` automatically uses the environment.prod.ts<br>
-
-# This project uses the following 3rd-party dependencies :<br>
--[akveo.ng2-smart-table](https://github.com/akveo/ng2-smart-table)<br>
--[oferh.ng2-completer](https://github.com/oferh/ng2-completer) (akveo.ng2-smart-table dependency)<br>
 <br>
 [CanActivate vs CanActivateChild](https://stackoverflow.com/a/40284274)
 <br>
+# This project uses the following 3rd-party dependencies :<br>
+-[akveo.ng2-smart-table](https://github.com/akveo/ng2-smart-table)<br>
+-[oferh.ng2-completer](https://github.com/oferh/ng2-completer) (akveo.ng2-smart-table dependency)<br>
+
 ## How to use it
 Clone this repo and run `npm install` to install the required packages.
 <br><br><br>
