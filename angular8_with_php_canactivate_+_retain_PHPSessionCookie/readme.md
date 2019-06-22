@@ -16,6 +16,7 @@ Is an improved version of [mehulmpt.angular6-youtube](https://github.com/mehulmp
 -better file/folder structure<br>
 -add `withCredentials` @ HttpHeaders, otherwise `PHPHSession` cookie is not stored when you upload the app online :)<br>
 -akveo.ng2-smart-table implementation with server side pagination + `$_SESSION` sample validation<br>
+-`auth.service.ts` uses `FormData` as result at the destination `auth.php` there is no need to `file_get_contents('php://input')` :)<br>
 -this guide<br>
 <br>
 <br>
