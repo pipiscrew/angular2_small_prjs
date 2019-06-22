@@ -37,5 +37,5 @@ when you `ng build --prod --base-href /subfolder/` automatically uses the enviro
 Clone this repo and run `npm install` to install the required packages.
 <br><br><br>
 ## This project is no longer maintained
-<br><br>
+<br>
 Copyright (c) 2019 [PipisCrew](http://pipiscrew.com)
