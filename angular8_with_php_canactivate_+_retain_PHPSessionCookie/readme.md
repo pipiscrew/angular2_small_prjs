@@ -1,4 +1,4 @@
-# Use angular with PHP server secure calls.
+# Use angular with PHP server secure calls
 
 At PHP side :
 
