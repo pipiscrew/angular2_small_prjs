@@ -24,15 +24,15 @@ Is an improved version of [mehulmpt.angular6-youtube](https://github.com/mehulmp
 <br>
 **PRJ\src\environments\environment.ts** - debug (aka `ng serve`) static variable for the baseURL<br>
 **PRJ\src\environments\environment.prod.ts** - production (aka `ng build --prod --base-href /subfolder/`) static variable for the baseURL.<br><br>
-Files using baseURL : <br>
+files using baseURL : <br>
 PRJ\src\app\auth\auth.service.ts<br>
 PRJ\src\app\auth\user.service.ts<br><br>
 when you `ng build --prod --base-href /subfolder/` automatically uses the environment.prod.ts<br>
 <br>
-[A guide to ng2-smart-table](https://www.pipiscrew.com/2019/06/from-wenzhixin-bootstrap-table-to-angular-akveo-ng2-smart-table/)
+[A guide to ng2-smart-table](https://www.pipiscrew.com/2019/06/from-wenzhixin-bootstrap-table-to-angular-akveo-ng2-smart-table/)<br>
 [CanActivate vs CanActivateChild](https://stackoverflow.com/a/40284274)
 <br>
-# This project uses the following 3rd-party dependencies :<br>
+## This project uses the following 3rd-party dependencies :<br>
 -[akveo.ng2-smart-table](https://github.com/akveo/ng2-smart-table)<br>
 -[oferh.ng2-completer](https://github.com/oferh/ng2-completer) (akveo.ng2-smart-table dependency)<br>
 
