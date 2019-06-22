@@ -14,9 +14,9 @@ if($user != 'admin') {
 ```
 Is an improved version of [mehulmpt.angular6-youtube](https://github.com/mehulmpt/angular6-youtube/tree/loginapp).<br>
 -better file/folder structure<br>
-  - add withCredentials @ HttpHeaders, otherwise cant play when you upload the app online :)<br>
-  - akveo.ng2-smart-table implementatio w/ server side pagination + $_SESSION sample validation<br>
-  - this guide<br>
+-add withCredentials @ HttpHeaders, otherwise cant play when you upload the app online :)<br>
+-akveo.ng2-smart-table implementatio w/ server side pagination + $_SESSION sample validation<br>
+-this guide<br>
 <br>
 <br>
 #Things you should know :<br>
