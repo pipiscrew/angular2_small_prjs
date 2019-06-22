@@ -15,11 +15,11 @@ if($user != 'admin') {
 Is an improved version of [mehulmpt.angular6-youtube](https://github.com/mehulmpt/angular6-youtube/tree/loginapp).<br>
 -better file/folder structure<br>
 -add `withCredentials` @ HttpHeaders, otherwise `PHPHSession` cookie is not stored when you upload the app online :)<br>
--akveo.ng2-smart-table implementatio w/ server side pagination + $_SESSION sample validation<br>
+-akveo.ng2-smart-table implementation with server side pagination + `$_SESSION` sample validation<br>
 -this guide<br>
 <br>
 <br>
-#Things you should know :<br>
+# Things you should know :<br>
 **PRJ\proxy.config.json** - occurred only on localhost (+fix CORS Error) - any call starts with `/api` proxified to XAMPP PHP server (aka localhost) -- always start the debug server with `npm start` (and no ng serve) to execute the predefined -> PRJ\package.json > "start": `ng serve --proxy-config proxy.config.json` otherwise you will not proxified!<br>
 <br>
 **PRJ\src\environments\environment.ts** - debug (aka `ng serve`) static variable for the baseURL<br>
