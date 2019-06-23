@@ -83,7 +83,6 @@ chrome://settings/cookies/detail?site=pipiscrew.com
 
 ![shot2](https://user-images.githubusercontent.com/3852762/59976289-b0d4d900-95b1-11e9-8d94-585fdcb7b009.png)
 
-or by using [Awesome Cookie Manager](https://chrome.google.com/webstore/detail/awesome-cookie-manager/hcpidejphgpcgfnpiehkcckkkemgneif/)
 
 refs:
 
