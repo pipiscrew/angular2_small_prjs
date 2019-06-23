@@ -35,7 +35,8 @@ when you `ng build --prod --base-href /subfolder/` automatically uses the enviro
 <br>
 [A guide to ng2-smart-table](https://www.pipiscrew.com/2019/06/from-wenzhixin-bootstrap-table-to-angular-akveo-ng2-smart-table/)<br>
 [CanActivate vs CanActivateChild](https://stackoverflow.com/a/40284274)
-<br>
+<br/>
+<br/>
 # Things you should know about CORS and XHR :
 
 
@@ -52,7 +53,8 @@ header("Access-Control-Allow-Origin: https://www.pipiscrew.com ");
 header("Access-Control-Allow-Credentials: true");
 ```
 
-
+<br/>
+<br/>
 
 
 **1** as we mentioned at angular we using `withCredentials` at HttpHeaders. This requires as https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS site writes :
@@ -60,10 +62,8 @@ header("Access-Control-Allow-Credentials: true");
 
 > When responding to a credentialed request, the server must specify an origin in the value of the Access-Control-Allow-Origin header, instead of specifying the "*" wildcard.
 
-
-
-
-
+<br/>
+<br/>
 
 **2** When you login to angular application, if you go to find the `PHPSession cookie` at developer console cookie manager, you will see an empty list!<br>
 
@@ -80,7 +80,7 @@ this is because all XHR with CORS store the cookie to browser **internal cookie 
 
 > In addition, this flag is #also used# to indicate when cookies are to be ignored in the response. The default is false.
 
->The third-party cookies obtained by setting withCredentials to true will still honor same-origin policy and hence can not be accessed by the requesting script through #document.cookie# or from response headers.
+> The third-party cookies obtained by setting withCredentials to true will still honor same-origin policy and hence can not be accessed by the requesting script through #document.cookie# or from response headers.
 
 [ref - XMLHttpRequest/withCredentials](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials)
 
