@@ -69,7 +69,19 @@ header("Access-Control-Allow-Credentials: true");
 
 ![shot1](https://user-images.githubusercontent.com/3852762/59976247-37d58180-95b1-11e9-8d5a-74c90daef95c.png)
 <br>
-this is because all XHR with CORS store the cookie to browser **internal cookie store** (magic!) [ref](https://stackoverflow.com/a/7189502/1320686) [ref2](https://github.com/mgonto/restangular/issues/243#issuecomment-22711777) 
+this is because all XHR with CORS store the cookie to browser **internal cookie store**.  
+
+[ref2011](https://stackoverflow.com/a/7189502/1320686)    [ref2013](https://github.com/mgonto/restangular/issues/243#issuecomment-22711777) 
+
+
+
+
+> Setting withCredentials has no effect on same-site requests.
+
+> In addition, this flag is also used to indicate when cookies are to be ignored in the response. The default is false.
+
+
+[ref - XMLHttpRequest/withCredentials](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials)
 
 <br>
 <br>
