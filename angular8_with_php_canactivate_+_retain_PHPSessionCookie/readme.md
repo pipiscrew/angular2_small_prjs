@@ -78,8 +78,9 @@ this is because all XHR with CORS store the cookie to browser **internal cookie 
 
 > Setting withCredentials has no effect on same-site requests.
 
-> In addition, this flag is also used to indicate when cookies are to be ignored in the response. The default is false.
+> In addition, this flag is #also used# to indicate when cookies are to be ignored in the response. The default is false.
 
+>The third-party cookies obtained by setting withCredentials to true will still honor same-origin policy and hence can not be accessed by the requesting script through #document.cookie# or from response headers.
 
 [ref - XMLHttpRequest/withCredentials](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials)
 
