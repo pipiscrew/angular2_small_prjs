@@ -1,12 +1,8 @@
 <?php
 
+header("Access-Control-Allow-Origin: https://www.pipiscrew.com ");
+header("Access-Control-Allow-Credentials: true");
 
-/*
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Request-Headers: GET,POST,OPTIONS,DELETE,PUT");
-header('Access-Control-Allow-Headers: Accept,Accept-Language,Content-Language,Content-Type');
-
-*/
 
 session_start();
 
