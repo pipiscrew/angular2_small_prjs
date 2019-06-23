@@ -81,7 +81,8 @@ chrome://settings/cookies/detail?site=pipiscrew.com
 ```
 <br>
 
-![shot2](https://user-images.githubusercontent.com/3852762/59976289-b0d4d900-95b1-11e9-8d94-585fdcb7b009.png)
+![snap240](https://user-images.githubusercontent.com/3852762/59976900-352b5a00-95ba-11e9-8415-8da459f093b1.png)
+
 
 
 refs:
@@ -90,6 +91,8 @@ refs:
 ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin)
 
 [Access-Control-Allow-Credentials](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials)
+
+
 
 
 
