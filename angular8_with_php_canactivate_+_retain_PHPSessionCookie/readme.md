@@ -79,6 +79,10 @@ you can find the cookie at :
 ```php
 chrome://settings/cookies/detail?site=pipiscrew.com
 ```
+
+
+
+or using [Awesome Cookie Manager](https://chrome.google.com/webstore/detail/awesome-cookie-manager/hcpidejphgpcgfnpiehkcckkkemgneif)
 <br>
 
 ![snap240](https://user-images.githubusercontent.com/3852762/59976900-352b5a00-95ba-11e9-8415-8da459f093b1.png)
