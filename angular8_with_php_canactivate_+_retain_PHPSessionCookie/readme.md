@@ -73,8 +73,8 @@ this is because all XHR with CORS store the cookie to browser **internal cookie 
 
 [ref2011](https://stackoverflow.com/a/7189502/1320686)    [ref2013](https://github.com/mgonto/restangular/issues/243#issuecomment-22711777) 
 
-
-
+<br/>
+<br/>
 
 > Setting withCredentials has no effect on same-site requests.
 
@@ -109,10 +109,46 @@ refs:
 
 [Access-Control-Allow-Credentials](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials)
 
+<br/>
+<br/>
+
+
+# PHP Session expiration setup
+
+The configuration primarly should be done on php.ini, we can use `ini_set` function to set it on runtime.
+
+```php
+<?php
+
+//prior v7
+//https://stackoverflow.com/a/24350918/1320686
+
+ini_set('session.cookie_lifetime', 86400);
+ini_set('session.gc_maxlifetime', 86400);
+
+sesion_start(); //https://www.php.net/manual/en/function.session-start.php
+
+
+//v7 and later
+//https://stackoverflow.com/a/53485125/1320686
+session_start([
+    'cookie_lifetime' => 86400,
+    'gc_maxlifetime' => 86400
+]);
+```
 
 
 
+86400 = represents 24h, value is in seconds.
 
+[session.cookie_lifetime](https://www.php.net/manual/en/session.configuration.php#ini.session.cookie-lifetime) specifies the lifetime of the cookie in seconds which is sent to the browser.
+
+
+[session.gc_maxlifetime](https://www.php.net/manual/en/session.configuration.php#ini.session.gc-maxlifetime) specifies the number of seconds after which data will be seen as 'garbage' and potentially cleaned up. Garbage collection may occur during session start
+
+
+<br/>
+<br/>
 
 
 
@@ -121,10 +157,14 @@ refs:
 -[oferh.ng2-completer](https://github.com/oferh/ng2-completer) (akveo.ng2-smart-table dependency)<br>
 
 
+<br/>
+<br/>
 
 # How to use it
 Clone this repo and run `npm install` to install the required packages.
-<br><br><br>
+
+<br/>
+
 # This project is no longer maintained
 Copyright (c) 2019  [PipisCrew](http://pipiscrew.com)
 
