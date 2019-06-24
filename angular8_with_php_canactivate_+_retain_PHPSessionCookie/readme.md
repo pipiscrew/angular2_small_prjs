@@ -69,7 +69,7 @@ header("Access-Control-Allow-Credentials: true");
 <br/>
 <br/>
 
-**2** When you login to angular application, if you go to find the `PHPSession cookie` at developer console cookie manager, you will see an empty list!<br>
+**2** When you login to angular application, if you go to find the `PHPSession cookie` at developer console cookie manager, you will see an empty list! (as tested on Chronium v71 & Firefox v67)<br>
 
 ![shot1](https://user-images.githubusercontent.com/3852762/59976247-37d58180-95b1-11e9-8d5a-74c90daef95c.png)
 <br>
@@ -126,7 +126,6 @@ The configuration primarly should be done on php.ini, we can use `ini_set` funct
 
 //prior v7
 //https://stackoverflow.com/a/24350918/1320686
-
 ini_set('session.cookie_lifetime', 86400);
 ini_set('session.gc_maxlifetime', 86400);
 
