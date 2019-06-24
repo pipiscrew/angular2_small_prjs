@@ -12,14 +12,18 @@ if($user != 'admin') {
 	return;
 }
 ```
+
+![2019-06-24_232232](https://user-images.githubusercontent.com/3852762/60049547-09919800-96be-11e9-85cc-50c053c72ea0.png)
+
+
 Is an improved version of [mehulmpt.angular6-youtube](https://github.com/mehulmpt/angular6-youtube/tree/loginapp) :
 
 
 
--better file/folder structure
--add `withCredentials` @ HttpHeaders, otherwise `PHPSession` cookie is not [stored](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials) when you upload the app online :)<br>
--akveo.ng2-smart-table implementation with server side pagination + `$_SESSION` sample validation<br>
--`auth.service.ts` uses `FormData` as result at the destination `auth.php` there is no need to `file_get_contents('php://input')` :)<br>
+-better file/folder structure<br/>
+-add `withCredentials` @ HttpHeaders, otherwise `PHPSession` cookie is not [stored](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials) when you upload the app online :)<br/>
+-akveo.ng2-smart-table implementation with server side pagination + `$_SESSION` sample validation<br/>
+-`auth.service.ts` uses `FormData` as result at the destination `auth.php` there is no need to `file_get_contents('php://input')` :)<br/>
 -this guide<br>
 <br>
 <br>
