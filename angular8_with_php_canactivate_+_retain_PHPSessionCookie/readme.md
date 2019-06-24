@@ -45,6 +45,10 @@ when you `ng build --prod --base-href /subfolder/` automatically uses the enviro
 
 
 
+**1** as we mentioned at angular we using `withCredentials` at HttpHeaders. This requires as https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS site writes :
+
+> When responding to a credentialed request, the server must specify an origin in the value of the Access-Control-Allow-Origin header, instead of specifying the "*" wildcard.
+
 
 
 All the `api/php` files start with :
@@ -61,10 +65,7 @@ header("Access-Control-Allow-Credentials: true");
 <br/>
 
 
-**1** as we mentioned at angular we using `withCredentials` at HttpHeaders. This requires as https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS site writes :
 
-
-> When responding to a credentialed request, the server must specify an origin in the value of the Access-Control-Allow-Origin header, instead of specifying the "*" wildcard.
 
 <br/>
 <br/>
