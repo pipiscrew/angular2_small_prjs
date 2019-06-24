@@ -64,12 +64,6 @@ header("Access-Control-Allow-Credentials: true");
 <br/>
 <br/>
 
-
-
-
-<br/>
-<br/>
-
 **2** When you login to angular application, if you go to find the `PHPSession cookie` at developer console cookie manager, you will see an empty list! (as tested on Chronium v71 & Firefox v67)<br>
 
 ![shot1](https://user-images.githubusercontent.com/3852762/59976247-37d58180-95b1-11e9-8d5a-74c90daef95c.png)
