@@ -19,12 +19,14 @@ const routes: Routes = [
   {
     path: 'admin',
     component: AdminComponent,
-    canActivate: [AuthGuard]
+    canActivate: [AuthGuard],
+    data: { parent : 'admin'}
   },
   {
     path: 'users',
     component: UsersComponent,
-    canActivate: [AuthGuard]
+    canActivate: [AuthGuard],
+    data: { parent : 'users'}
   },
   {
     path: '',
