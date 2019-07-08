@@ -1,0 +1,33 @@
+<div style="width:30%;; margin:0 auto;"> 
+    <span style="display: inline;">
+    <button style="background-color: #5f36f4; width:200px; margin-right: 20px;" (click)="btnCheck()">check if you are logged in</button>
+    <button style="background-color: #5f36f4; width:150px; margin-right: 20px;" (click)="btnSecret()">read the secret</button>
+    <button style="background-color: #5f36f4; width:100px" (click)="btnLogout()">logout</button>
+</span>
+
+  <h2>Login Form</h2>
+
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+    <div class="imgcontainer">
+      <img src="../assets/img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <p *ngIf="submitted && f.username.errors?.required" style="color:red">Username required</p>
+    <p *ngIf="submitted && f.password.errors?.required" style="color:red">Password required</p>
+    <p *ngIf="serverError?.length > 0" style="color:red">{{serverError}}</p>
+    
+    <div class="container">
+      <label><b>Username</b></label>
+      <input type="text" formControlName="username" placeholder="Enter Username">
+
+      <label><b>Password</b></label>
+      <input type="password" formControlName="password" placeholder="Enter Password">
+          
+      <button>Login</button>
+    
+    </div>
+
+  </form>
+</div> 
+<router-outlet></router-outlet>
