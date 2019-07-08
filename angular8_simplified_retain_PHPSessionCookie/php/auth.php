@@ -18,7 +18,7 @@ if ($_POST["username"] == "admin" && $_POST["password"] == "admin") {
 	
 	$_SESSION['user'] = 'admin';
 	
-	echo json_encode(array("success" => true, "message" => "this is a registered mesage"));
+	echo json_encode(array("success" => true, "message" => "this is a registered message"));
 	
 } else {
 	echo json_encode(array("success" => false, "message" => "invalid login"));
