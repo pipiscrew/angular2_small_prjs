@@ -1,4 +1,4 @@
-JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. The follwing page can decode a JWT  
+JSON Web Tokens are an open, industry standard RFC 7519 method for representing claims securely between two parties. Decode with  
 https://jwt.io/  
   
 similar articles :
